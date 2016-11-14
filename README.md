@@ -7,7 +7,7 @@
 
 ### Demo
 
-![](https://github.com/miss-yadi/YDSlider/blob/master/YDSlider.gif)
+![](https://github.com/miss-yadi/YDSliderView/blob/master/YDSlider.gif)
 
 ### Usage
 #### 初始化：设置frame和文字所在的位置（上、中、下），其它的跟普通的UISlider一样
