@@ -45,7 +45,7 @@
 
 #pragma mark - YDSliderDelegate
 
-- (void)sliderValueChanged:(UISlider *)slider {
+- (void)sliderValueChanged:(YDSlider *)slider {
     NSLog(@"%f", slider.value);
 }
 

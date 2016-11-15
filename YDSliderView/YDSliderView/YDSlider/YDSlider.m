@@ -52,7 +52,7 @@
 - (void)sliderValueChanged:(UISlider *)slider {
     [self setIndexLabelFrame];
     if (self.delegate && [self.delegate respondsToSelector:@selector(sliderValueChanged:)]) {
-        [self.delegate sliderValueChanged:slider];
+        [self.delegate sliderValueChanged:self];
     }
 }
 

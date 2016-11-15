@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class YDSlider;
+
 typedef NS_ENUM(NSInteger, SLIDER_INDEX_TYPE) {
     SLIDER_INDEX_TYPE_CENTER,
     SLIDER_INDEX_TYPE_TOP,
@@ -17,7 +19,7 @@ typedef NS_ENUM(NSInteger, SLIDER_INDEX_TYPE) {
 @protocol YDSliderDelegate <NSObject>
 
 @optional
-- (void)sliderValueChanged:(UISlider *)slider;
+- (void)sliderValueChanged:(YDSlider *)slider;
 
 @end
 
